@@ -19,8 +19,8 @@ namespace FormFileEncrypt
         /* please change these values to run with your 
          * application ID after registering the app in AAD <which is Client ID> and the redirectURI
          * for your application */
-        private static string adalAppID = "0e83a03a-4ecd-4b3b-8466-a44bdbcabd2b"; //change this 
-        private static string adalRedirectURI = "https://myisvapp.com/.auth/done";  //change this
+        private static string adalAppID = "4186465f-9980-40eb-98ca-35fea66b63e4"; //change this 
+        private static string adalRedirectURI = "com.microsoft.rms-powershell-protection-add-in-for-win://authorize";  //change this
         private static SafeFileApiNativeMethods.DecryptFlags IPCF_DF_FLAG_DEFAULT = 0;
 
         IpcAadApplicationId currAppId = new IpcAadApplicationId(adalAppID, adalRedirectURI);
